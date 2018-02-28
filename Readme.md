@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Татьяна Клочкова](https://up.htmlacademy.ru/htmlcss/20/user/368011).
-* Наставник: Наталья Лоскутова  https://vk.com/nutzzz .
+* Наставник: [Наталья Лоскутова](https://htmlacademy.ru/profile/id33515).
 
 ---
 
