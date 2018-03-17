@@ -22,8 +22,10 @@
       </nav>
     </header> 
 
+    <nav class="main-promo">  
     <main class="container">
-     <h1 class="page-title">Магазин готовых шаблонов</h1>
+     <h1 class="main-promo-title ">Магазин готовых шаблонов</h1>
+
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <!-- Здесь будет форма -->
@@ -31,18 +33,39 @@
       </section> 
       <section class="catalog">
         <h2 class="visually-hidden">Список готовых шаблонов</h2>
-        <ul class="catalog-list">
+      <div class="catalog__sort-menu">
+        <p class="catalog__sort-menu-subtitle">Сортировать:</p>
+      <ul class="catalog__sort-menu-list">
+        <li class="catalog__sort-menu-item catalog__sort-menu-item--active">
+          <a class="catalog__sort-menu-link" href="#">По цене</a>
+        </li>
+        <li class="catalog__sort-menu-item">
+          <a class="catalog__sort-menu-link" href="#">По типу</a>
+        </li>
+        <li class="catalog__sort-menu-item">
+          <a class="catalog__sort-menu-link" href="#">По названию</a>
+        </li>
+      </ul>
+      <ul class="catalog__sort-ascdesc">
+        <li class="catalog__sort-ascdesc-item">
+          <a class="catalog__sort-ascdesc-link" href="#">Сортировка по убыванию</a>
+        </li>
+        <li class="catalog__sort-ascdesc-item">
+          <a class="catalog__sort-ascdesc-link" href="#">Сортировка по возрастанию</a>
+        </li>
+      </ul>
+    </div>
+        
+      <ul class="catalog-list">
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                <span class="catalog-category">SEDONA</span>
-                <span class="catalog-item-title">Информационный сайт для туристов</span>
+                <span class="catalog-category-title">SEDONA</span>
+                <span class="catalog-item-description">Информационный сайт для туристов</span>
               </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-1.jpg" width="220" height="165" alt="SEDONA»">
-              </a>
             </p>
             <p class="catalog-item-price">
                <a class="button" href="#">9 900 РУБ.</a>
@@ -52,14 +75,12 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                <span class="catalog-category">PINK</span>
-                <span class="catalog-item-title">Сайт мобильного приложения</span>
+                <span class="catalog-category-title">PINK</span>
+                <span class="catalog-item-description">Сайт мобильного приложения</span>
               </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-2.jpg" width="220" height="165" alt="PINK">
-              </a>
             </p>
             <p class="catalog-item-price">
                <a class="button" href="#">9 900 РУБ.</a>
@@ -69,32 +90,27 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                <span class="catalog-category">BORODINSKI</span>
-                <span class="catalog-item-title">Сайт парикмахерского салона</span>
+                <span class="catalog-category-title ">BORODINSKI</span>
+                <span class="catalog-item-description">Сайт парикмахерского салона</span>
               </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-3.jpg" width="220" height="165" alt="BORODINSKI">
-              </a>
             </p>
             <p class="catalog-item-price">
               <a class="button" href="#">9 900 РУБ.</a>
             </p>
           </li>
-
-
+          
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                <span class="catalog-category">mishka</span>
-                <span class="catalog-item-title">Сайт вязанных вещей</span>
+                <span class="catalog-category-title">mishka</span>
+                <span class="catalog-item-description">Сайт вязанных вещей</span>
               </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-4.jpg" width="220" height="165" alt="mishka">
-              </a>
             </p>
             <p class="catalog-item-price">
               <a class="button" href="#">9 900 РУБ.</a>
@@ -104,12 +120,11 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                <span class="catalog-category">A+</span>
+                <span class="catalog-category-title">A+</span>
                 <span class="catalog-item-title">Сайт учебного центра</span>
               </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-5.jpg" width="220" height="165" alt="A+">
               </a>
             </p>
@@ -121,28 +136,27 @@
            <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                <span class="catalog-category">КВАСТ</span>
+                <span class="catalog-category-title">КВАСТ</span>
                 <span class="catalog-item-title">Сайт магазина крафтового кваса</span>
               </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-6.jpg" width="220" height="165" alt="КВАСТ">
-              </a>
             </p>
             <p class="catalog-item-price">
               <a class="button" href="#">9 900 РУБ.</a>
             </p>
           </li>  
-
+         </ul> 
       </section>
        <ul class="pagination-list">
-          <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+          <li class="pagination-item pagination-item-current">1</li>
           <li class="pagination-item"><a href="#">2</a></li>
           <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-item"><a href="#">4</a></li>
-        </ul>
+       </ul>
     </main>
+    </nav>
     <footer class="main-footer">
       <p class="footer-contacts">
         NЁRDS DESIGN STUDIO<br>
@@ -162,5 +176,6 @@
         </ul>
       </div>
     </footer>
+      <div class="modal" id="modal"></div>
     </body>
 </html>
